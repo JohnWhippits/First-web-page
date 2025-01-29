@@ -58,6 +58,7 @@ a {
    margin-left: auto;
    margin-right: auto;
    text-decoration: none;
+   color: white;
    
 
    
@@ -66,7 +67,7 @@ a {
 a:visited {
 
     text-decoration:none;
-    color:rgb(0, 238, 255);
+    color:rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
 }
