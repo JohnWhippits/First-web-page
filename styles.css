@@ -38,6 +38,8 @@ p {
 
 img {
    
+   max-width: 100%;
+   height: auto;
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -77,16 +79,6 @@ a:hover {
     margin-right: auto;
 }
 
-a img {
-
-display: flex;
-float: left;
-justify-content: center; 
-align-items: center;
-width: 20px;
-height: 20px;
-
-}
 
 #SecondLink {
 
@@ -120,3 +112,24 @@ iframe {
     margin-right: auto;
 
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+    }
+
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  }
