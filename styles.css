@@ -18,8 +18,18 @@ header {
 
 }
 
+#SecondHeader {
+
+    font-style: impact;
+    text-align: center;
+    color: rgb(255, 115, 0);
+    text-shadow: 0px 5px black, 0px 0px 20px rgb(0, 255, 0);
+    font-size: 40px;
+    display: block;
+    padding: 20px 20px;
+}
 p {
-    
+    text-shadow: 0px 5px black, 0px 0px 20px rgb(0, 255, 0);
     color: rgb(255, 115, 0);
     text-align: center;
     padding: 1em;
@@ -91,5 +101,22 @@ height: 20px;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
+
+}
+
+H2 {
+    
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 115, 0);
+    text-shadow: 0px 5px black, 0px 0px 20px rgb(0, 255, 0);
+
+}
+
+iframe {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
